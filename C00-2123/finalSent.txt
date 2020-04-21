@@ -1,0 +1,110 @@
+	the advantage is that we can recombine search hypotheses by dynamic programming.
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	this approach is compared to another reordering scheme presented in (berger et al., 1996).
+	a procedural definition to restrict1in the approach described in (berger et al., 1996), a mor phological analysis is carried out and word morphemes rather than full-form words are used during the search.
+	the algorithm works due to the fact that not all permutations of cities have to be considered explicitly.
+	the details are given in (och and ney, 2000).
+	a procedural definition to restrict1in the approach described in (berger et al., 1996), a mor phological analysis is carried out and word morphemes rather than full-form words are used during the search.
+	the details are given in (tillmann, 2000).
+	this approach is compared to another reordering scheme presented in (berger et al., 1996).
+	we use a solution to this problem similar to the one presented in (och et al., 1999), where target words are joined during training.
+	this approach is compared to another reordering scheme presented in (berger et al., 1996).
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	a procedural definition to restrict1in the approach described in (berger et al., 1996), a mor phological analysis is carried out and word morphemes rather than full-form words are used during the search.
+	the details are given in (och and ney, 2000).
+	we use a solution to this problem similar to the one presented in (och et al., 1999), where target words are joined during training.
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	in order to handle the necessary word reordering as an optimization problem within our dynamic programming approach, we describe a solution to the traveling salesman problem (tsp) which is based on dynamic programming (held, karp, 1962).
+	our new approach, which is called quasi-monotone search, processes the source sentence monotonically, while explicitly taking into account the positions of the german verbgroup.
+	in this paper, we describe a search procedure for statistical machine translation (mt) based on dynamic programming (dp).
+	in section 3, we introduce our novel concept to word reordering and a dp-based search, which is especially suitable for the translation direction from german to english.
+	to explicitly handle the word reordering between words in source and target language, we use the concept of the so-called inverted alignments as given in (ney et al., 2000).
+	in the second and third translation examples, the ibms word reordering performs worse than the qms word reordering, since it can not take properly into account the word reordering due to the german verbgroup.
+	the restriction can be expressed in terms of the number of uncovered source sentence positions to the left of the rightmost position m in the coverage set.
+	for the inverted alignment probability p(bijbi􀀀1; i; j), we drop the dependence on the target sentence length i
+	the levenshtein distance between the automatic translation and each of the reference translations is computed, and the minimum levenshtein distance is taken.
+	in this paper, we describe a search procedure for statistical machine translation (mt) based on dynamic programming (dp).
+	skipped (k): the translation of up to one word may be postponed
+	in the second and third translation examples, the ibms word reordering performs worse than the qms word reordering, since it can not take properly into account the word reordering due to the german verbgroup.
+	starting from a dp-based solution to the traveling salesman problem, we present a novel technique to restrict the possible word reordering between source and target language in order to achieve an eæcient search algorithm.
+	in order to handle the necessary word reordering as an optimization problem within our dynamic programming approach, we describe a solution to the traveling salesman problem (tsp) which is based on dynamic programming (held, karp, 1962).
+	covering the first uncovered position in the source sentence, we use the language model probability p(ej$; $).
+	for the inverted alignment probability p(bijbi􀀀1; i; j), we drop the dependence on the target sentence length i
+	the best scored hypothesis for each coverage set is computed: qbeam(c) = max e;e0 ;s;j qe0 (e; s; c; j) the hypothesis (e0; e; s; c; j) is pruned if: qe0 (e; s; c; j) < t0 qbeam(c); where t0 is a threshold to control the number of surviving hypotheses.
+	for æ = 1, a new target language word is generated using the trigram language model p(eje0; e00).
+	the inverted alignment probability p(bijbi􀀀1; i; j) and the lexicon probability p(fbi jei) are obtained by relative frequency estimates from the viterbi alignment path after the final training iteration.
+	in section 3, we introduce our novel concept to word reordering and a dp-based search, which is especially suitable for the translation direction from german to english.
+	in section 4, we present the performance measures used and give translation results on the verbmobil task.
+	in this paper, we describe a search procedure for statistical machine translation (mt) based on dynamic programming (dp).
+	in order to handle the necessary word reordering as an optimization problem within our dynamic programming approach, we describe a solution to the traveling salesman problem (tsp) which is based on dynamic programming (held, karp, 1962).
+	to formalize the approach, we introduce four verbgroup states s: initial (i): a contiguous, initial block of source positions is covered.
+	in this paper, we have presented a new, eæcient dp-based search procedure for statistical machine translation.
+	we apply a beam search concept as in speech recognition.
+	here, we process only full-form words within the translation procedure.
+	in this paper, we describe a search procedure for statistical machine translation (mt) based on dynamic programming (dp).
+	this algorithm can be applied to statistical machine translation.
+	the details are given in (och and ney, 2000).
+	the details are given in (tillmann, 2000).
+	the proof is given in (tillmann, 2000).
+	the proof is given in (tillmann, 2000).
+	this approach is compared to another reordering scheme presented in (berger et al., 1996).
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	the use of this alignment model raises major problems if a source word has to be aligned to several target words, e.g
+	we have tested the translation system on the verbmobil task (wahlster 1993).
+	a procedural definition to restrict1in the approach described in (berger et al., 1996), a mor phological analysis is carried out and word morphemes rather than full-form words are used during the search.
+	the translation of one position in the source sentence may be postponed for up to l = 3 source positions, and the translation of up to two source positions may be anticipated for at most r = 10 source positions.
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	the use of this alignment model raises major problems if a source word has to be aligned to several target words, e.g
+	in this paper, we describe a search procedure for statistical machine translation (mt) based on dynamic programming (dp).
+	we have tested the translation system on the verbmobil task (wahlster 1993).
+	a procedural definition to restrict1in the approach described in (berger et al., 1996), a mor phological analysis is carried out and word morphemes rather than full-form words are used during the search.
+	the approach assumes that the word reordering is restricted to a few positions in the source sentence.
+	the advantage is that we can recombine search hypotheses by dynamic programming.
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	there are 13 types of extensions needed to describe the verbgroup reordering.
+	here, we process only full-form words within the translation procedure.
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	table 5: effect of the beam threshold on the number of search errors (147 sentences).
+	we apply a beam search concept as in speech recognition.
+	the model is often further restricted so that each source word is assigned to exactly one target word (brown et al., 1993; ney et al., 2000).
+	decreasing the threshold results in higher mwer due to additional search errors.
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	covering the first uncovered position in the source sentence, we use the language model probability p(ej$; $).
+	we have tested the translation system on the verbmobil task (wahlster 1993).
+	for æ = 1, a new target language word is generated using the trigram language model p(eje0; e00).
+	we show translation results for three approaches: the monotone search (mons), where no word reordering is allowed (tillmann, 1997), the quasimonotone search (qms) as presented in this paper and the ibm style (ibms) search as described in section 3.2.
+	using the inverted alignments in the maximum approximation, we obtain as search criterion: max i (p(jji) max ei 1 ( i yi=1 p(eijei􀀀1 i􀀀2) max bi 1 i yi=1 [p(bijbi􀀀1; i; j) p(fbi jei)])) = = max i (p(jji) max ei 1;bi 1 ( i yi=1 p(eijei􀀀1 i􀀀2) p(bijbi􀀀1; i; j) p(fbi jei)])); where the two products over i have been merged into a single product over i
+	for the inverted alignment probability p(bijbi􀀀1; i; j), we drop the dependence on the target sentence length i
+	for æ = 1, a new target language word is generated using the trigram language model p(eje0; e00).
+	the best scored hypothesis for each coverage set is computed: qbeam(c) = max e;e0 ;s;j qe0 (e; s; c; j) the hypothesis (e0; e; s; c; j) is pruned if: qe0 (e; s; c; j) < t0 qbeam(c); where t0 is a threshold to control the number of surviving hypotheses.
+	covering the first uncovered position in the source sentence, we use the language model probability p(ej$; $).
+	for æ = 1, a new target language word is generated using the trigram language model p(eje0; e00).
+	covering the first uncovered position in the source sentence, we use the language model probability p(ej$; $).
+	the approach assumes that the word reordering is restricted to a few positions in the source sentence.
+	the use of this alignment model raises major problems if a source word has to be aligned to several target words, e.g
+	using the concept of inverted alignments, we explicitly take care of the coverage constraint by introducing a coverage set c of source sentence positions that have been already processed.
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	a procedural definition to restrict1in the approach described in (berger et al., 1996), a mor phological analysis is carried out and word morphemes rather than full-form words are used during the search.
+	the model is often further restricted so that each source word is assigned to exactly one target word (brown et al., 1993; ney et al., 2000).
+	this approach is compared to another reordering scheme presented in (berger et al., 1996).
+	the details are given in (och and ney, 2000).
+	in many cases, there is an even stronger restriction: over large portions of the source string, the alignment is monotone.
+	using these states, we define partial hypothesis extensions, which are of the following type: (s0;c n fjg; j0) !
+	in this case, we have no finite-state restrictions for the search space.
+	to explicitly handle the word reordering between words in source and target language, we use the concept of the so-called inverted alignments as given in (ney et al., 2000).
+	our new approach, which is called quasi-monotone search, processes the source sentence monotonically, while explicitly taking into account the positions of the german verbgroup.
+	restrictions we compare our new approach with the word reordering used in the ibm translation approach (berger et al., 1996).
+	a procedural definition to restrict1in the approach described in (berger et al., 1996), a mor phological analysis is carried out and word morphemes rather than full-form words are used during the search.
+	the use of this alignment model raises major problems if a source word has to be aligned to several target words, e.g
+	in order to handle the necessary word reordering as an optimization problem within our dynamic programming approach, we describe a solution to the traveling salesman problem (tsp) which is based on dynamic programming (held, karp, 1962).
+	this approach is compared to another reordering scheme presented in (berger et al., 1996).
+	the following two error criteria are used in our experiments: mwer: multi-reference wer: we use the levenshtein distance between the automatic translation and several reference translations as a measure of the translation errors.
+	table 4 shows translation results for the three approaches.
+	we show translation results for three approaches: the monotone search (mons), where no word reordering is allowed (tillmann, 1997), the quasimonotone search (qms) as presented in this paper and the ibm style (ibms) search as described in section 3.2.
+	in order to handle the necessary word reordering as an optimization problem within our dynamic programming approach, we describe a solution to the traveling salesman problem (tsp) which is based on dynamic programming (held, karp, 1962).
+	search hypotheses are processed separately according to their coverage set c
+	the advantage is that we can recombine search hypotheses by dynamic programming.
+	in this case, we have no finite-state restrictions for the search space.
+	the cities of the traveling salesman problem correspond to source table 1: dp algorithm for statistical machine translation.
+	the algorithm works due to the fact that not all permutations of cities have to be considered explicitly.
+	table 5: effect of the beam threshold on the number of search errors (147 sentences).

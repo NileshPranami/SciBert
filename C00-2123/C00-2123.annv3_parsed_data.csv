@@ -1,0 +1,22 @@
+C02-1050.xml,"Under this constraint, many researchers had contributed algorithms and associated pruning strategies, such as Berger et al."
+C02-1050.xml,"(2001), Wang and Waibel (1997), Tillmann and Ney (2000) GarciaVarea and Casacuberta (2001) and Germann et al."
+C02-1050.xml,"There exists stack decoding algorithm (Berger et al., 1996), A* search algorithm (Och et al., 2001; Wang and Waibel, 1997) and dynamic-programming algorithms (Tillmann and Ney, 2000; GarciaVarea and Casacuberta, 2001), and all translate a given input string word-by-word and render the translation in left-to-right, with pruning technologies assuming almost linearly aligned translation source and target texts."
+C02-1050.xml,"The decoding methods presented in this paper explore the partial candidate translation hypotheses greedily, as presented in Tillmann and Ney (2000) and Och et al."
+C02-1050.xml,"The computational complexity for the left-to-right and right-to-left is the same, O("
+C04-1091.xml,"Tillman and Ney showed how to improve the complexity of the Held-Karp algorithm for restricted word reordering and gave a O (l3m4) ≈ O (m7) algo rithm for French-English translation (Tillman and Ney, 2000)."
+E06-1004.xml,"â€¢ Conditional Probability Given the model parameters and a sentence pair (f , e), compute P (f"
+H01-1062.xml,"To summarize these experimental tests, we briefly report experimental offline results for the following translation approaches"
+J03-1005.xml,This article will present a DP-based beam search decoder for the IBM4 translation model.
+J03-1005.xml,A preliminary version of the work presented here was published in Tillmann and Ney (2000).
+J04-2003.xml,"Many existing systems for statistical machine translation 1 1 (Garc´ıa-Varea and Casacuberta 2001; Germann et al. 2001; Nießen et al. 1998; Och, Tillmann, and Ney 1999) implement models presented by Brown, Della Pietra, Della Pietra, and Mercer (1993)"
+J04-2003.xml,Some recent publications deal with the automatic detection of multiword phrases (Och and Weber 1998; Tillmann and Ney 2000).
+J04-4002.xml,We call this selection of highly probable words observation pruning (Tillmann and Ney 2000).
+N03-1010.xml,"Och et al. report word error rates of 68.68% for optimal search (based on a variant of the A* algorithm), and 69.65% for the most restricted version of a decoder that combines dynamic programming with a beam search (Tillmann and Ney, 2000)."
+P01-1027.xml,"We use the top-10 list of hypothesis provided by the translation system described in (Tillmann and Ney, 2000) for rescoring the hypothesis using the ME models and sort them according to the new maximum entropy score."
+P03-1039.xml,"The decoding algorithm employed for this chunk + weight Ã— j f req(EA j , J j ) based statistical translation is based on the beam search algorithm for word alignment statistical in which Ptm(J"
+P03-1039.xml,"The generation of possible output chunks is estimated through an inverted lexicon model and sequences of inserted strings (Tillmann and Ney, 2000)."
+W01-0505.xml,"They were usually incorporated in the EM algorithm (Brown et al., 1993; Kupiec, 1993; Tillmann and Ney, 2000; Och et al., 2000)."
+W01-1404.xml,"Some of these studies have concentrated on finite-state or extended finite-state machinery, such as (Vilar and others, 1999), others have chosen models closer to context-free grammars and context-free transduction, such as (Alshawi et al., 2000; Watanabe et al., 2000; Yamamoto and Matsumoto, 2000), and yet other studies cannot be comfortably assigned to either of these two frameworks, such as (Brown and others, 1990) and (Tillmann and Ney, 2000)."
+W01-1407.xml,"We used a translation system called â€œsingle- word based approachâ€ described in (Tillmann and Ney, 2000) and compared to other approaches in (Ney et al., 2000)."
+W01-1408.xml,Search algorithms We evaluate the following two search algorithms
+W02-1020.xml,"It is faster because the search problem for noisy- channel models is NP-complete (Knight, 1999), and even the fastest dynamic-programming heuristics used in statistical MT (Niessen et al., 1998; Till- mann and Ney, 2000), are polynomial in J —for in p(v1, w2"
