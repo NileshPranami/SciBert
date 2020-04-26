@@ -76,7 +76,7 @@ for cnt, line in df1.iterrows():
 		
 	result = maxn(result,5)
 	for line3 in result:
-		f5.write('\t'+str(line3[1]))
+		f5.write(str(line3[1]))
 		f5.write('\n')
 	# f5.write('\t'+ str(result[1]))
 	# f5.write('\n') 
